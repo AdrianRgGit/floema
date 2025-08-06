@@ -1,0 +1,6 @@
+.app-container {
+  font-family: var(--font-main);
+  min-height: 100vh;
+  background-color: var(--color-secondary);
+  transition: all 0.3s ease-in-out;
+}
