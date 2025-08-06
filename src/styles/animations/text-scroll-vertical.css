@@ -1,0 +1,8 @@
+@keyframes text-scroll-vertical {
+  0% {
+    transform: translateY(-100%) rotate(180deg);
+  }
+  100% {
+    transform: translateY(100%) rotate(180deg);
+  }
+}
