@@ -6,8 +6,6 @@ export default function App() {
   const [showHome, setShowHome] = useState(false);
 
   return (
-    <>
-      {!showHome ? <Intro onFinish={() => setShowHome(true)} /> : <Home />}
-    </>
+    <>{!showHome ? <Intro onFinish={() => setShowHome(true)} /> : <Home />}</>
   );
 }

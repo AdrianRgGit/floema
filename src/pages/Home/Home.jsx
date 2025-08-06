@@ -11,16 +11,16 @@ export default function Home() {
   const homeRef = useRef();
 
   useGSAP(() => {
-    document.body.style.overflow = "hidden";
+    // document.body.style.overflow = "hidden";
 
     gsap.from(homeRef.current, {
       opacity: 0,
       y: 50,
       duration: 1,
       ease: "power2.out",
-      onComplete: () => {
-        document.body.style.overflow = "auto";
-      },
+      // onComplete: () => {
+      //   document.body.style.overflow = "auto";
+      // },
     });
   }, []);
 
@@ -29,6 +29,7 @@ export default function Home() {
       <div className="home-content-wrapper">
         <div className="home-left-column">
           <h1>neural</h1>
+
           <div className="home-text-container">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,

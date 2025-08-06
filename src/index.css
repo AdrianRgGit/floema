@@ -9,8 +9,11 @@
   --font-main: "Urbanist", sans-serif;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: var(--font-main);
+  overflow: hidden;
+  text-decoration: none;
+  line-height: 1;
 }

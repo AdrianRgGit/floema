@@ -1,4 +1,4 @@
-@import "../../styles/animations/text-scroll-vertical.css";
+@import "../../styles/animations/TextScrollVertical.css";
 
 .home-container {
   background-color: var(--color-secondary);
